@@ -1,0 +1,12 @@
+//24/7 ʜ ᴏ ꜱ ᴛ  ᴄ ᴏ ᴅ ɪ ɴ ɢ  
+
+const express = require('express')
+const app = express()
+const port = 3000
+
+ 
+app.get("/", (req, res) => {
+  res.send("Hello Hell!")
+})
+ 
+app.listen(port, () => console.log(`Hello Guys`));
